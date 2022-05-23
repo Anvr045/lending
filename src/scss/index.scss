@@ -1,0 +1,46 @@
+$font-size-p: 48px;
+$color-p: gold;
+
+body {
+  text-align: center;
+  margin: 0;
+
+
+
+p {
+  font-size: 48px;
+  color: gold;
+}
+
+h1 {
+text-decoration: none;
+  color: green;
+
+
+&:hover {
+  text-decoration: underline;
+}
+
+}
+
+nav {
+  color: red;
+
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+
+  li {
+    margin: 0 10px;
+  }
+
+  }
+}
+
+
+}
+
+
