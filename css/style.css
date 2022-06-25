@@ -88,7 +88,7 @@ a.button-right {
   color: #cc9933;
   text-decoration: none;
   padding: 13px 20px;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 a.button-right:last-child {
@@ -368,16 +368,6 @@ margin-bottom: 25px;
   padding: 25px 45px;
 }
 
-.spec-banner__button__go::after {
-  content: "";
-  background: url(../img/arrow.png) no-repeat;
-  background-size: cover;
-  display: inline-block;
-  width: 8px;
-  height: 15px;
-  vertical-align: middle;
-  margin: 0 10px;
-}
 
 
 
@@ -930,7 +920,7 @@ color: #999999;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  width: 1170px;
+  max-width: 1170px;
   background-color: #333333;
   border-radius: 15px;
   padding: 22px 30px 30px 45px;
@@ -977,7 +967,9 @@ color: #CC9933;
 
 
 .phone {
-margin: 0;
+  margin: 0;
+margin-bottom: 5px;
+
 }
 
 .phone__bottom {
@@ -985,13 +977,13 @@ margin: 0;
 }
 
 .mobile {
-
   color: #CC9933;
   text-decoration: none;
 }
 
 .mailto {
   margin: 0;
+  margin-bottom: 5px;
 }
 
 .email {
@@ -1010,8 +1002,35 @@ margin: 0;
 }
 
 .footer__img2 {
-position: absolute;
-bottom: 0;
-right: 165px;
+  position: absolute;
+  bottom: 0;
+  right: 165px;
 
+}
+
+
+.icon {
+  margin-bottom: 20px;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.icon:last-child {
+  margin-bottom: 0;
+}
+
+.icon__social {
+  position: relative;
+  left: 130px;
+  bottom: 32px;
+}
+
+.icon__arrow {
+  display: block;
+  width: 11px;
+  height: 11px;
+  position: relative;
+  left: 95px;
+  bottom: 25px;
 }
